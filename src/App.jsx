@@ -9,8 +9,12 @@ const GlobalStyle = createGlobalStyle`
       padding: 0;
       box-sizing: border-box;
     }
+    @font-face {
+      font-family:'Hurme' ;
+      src: url(HurmeGeometricSans1.otf);
+    }
     body{
-      font-family: 'Open Sans', sans-serif; 
+      font-family: Hurme; 
     }
     li {
       list-style-type: none;
