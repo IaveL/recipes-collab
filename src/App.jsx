@@ -2,6 +2,8 @@ import React from "react";
 import Main from "./components/Main/Main";
 import About from "./components/About/About";
 import Recipes from "./components/Recipes/Recipes";
+import Subscribe from "./components/Subscribe/Subscribe";
+import Footer from "./components/Footer/Footer"
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
@@ -30,6 +32,8 @@ export default function App() {
       <Main />
       <Recipes />  
       <About />
+      <Subscribe/>
+      <Footer/>
     </>
   )
 }
