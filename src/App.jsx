@@ -1,5 +1,7 @@
 import React from "react";
-import Main from "./components/Header/Main";
+import Main from "./components/Main/Main";
+import About from "./components/About/About";
+import Recipes from "./components/Recipes/Recipes";
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
@@ -23,10 +25,12 @@ const GlobalStyle = createGlobalStyle`
 
 export default function App() {
   return (
-    <div>
+    <>
       <GlobalStyle />
       <Main />
-    </div>
+      <Recipes />  
+      <About />
+    </>
   )
 }
 

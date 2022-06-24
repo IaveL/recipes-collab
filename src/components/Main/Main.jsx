@@ -10,7 +10,6 @@ import { HeaderContainer,
 
 export default function Main() {
   return (
-
     <MainContainer>
         <HeaderContainer>
         <img src={logo} alt="website logo" />
@@ -22,7 +21,8 @@ export default function Main() {
             </HeaderNavBar>     
         </nav>
         </HeaderContainer> 
-        <MainTitle>RECIPES</MainTitle>
+        <MainTitle>RECIPES</MainTitle>        
     </MainContainer>
+    
   )
 }
