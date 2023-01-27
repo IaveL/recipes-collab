@@ -3,15 +3,21 @@ import styled from "styled-components";
 export const SubsContainer = styled.div`
   background-color: #dfe4de;
   height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   input {
     width: 35vw;
-    height: 10vh;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    height: 4rem;
     border: white;
 
-    ::placeholder {
-      font-size: 12px;
-      padding-left: 20px;
+    :active {
+      border: none;
     }
   }
 `;
@@ -30,12 +36,10 @@ export const Text = styled.p`
 export const Subimit = styled.h3`
   font-size: 20px;
   border: solid black 2px;
-  padding: 8%;
+  padding: 2rem;
 `;
 
 export const DivSubimit = styled.h3`
-  width: 10vw;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding-top: 3%;
 `;

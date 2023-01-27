@@ -5,7 +5,8 @@ import { HeaderContainer,
         NavItem, 
         HighlightNavItem,
         MainContainer,
-        MainTitle
+        MainTitle,
+        TitleWrapper
 } from './styles'
 
 export default function Main() {
@@ -21,7 +22,9 @@ export default function Main() {
             </HeaderNavBar>     
         </nav>
         </HeaderContainer> 
+        <TitleWrapper>
         <MainTitle>RECIPES</MainTitle>        
+        </TitleWrapper>
     </MainContainer>
     
   )

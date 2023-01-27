@@ -2,6 +2,12 @@ import styled from "styled-components";
 
 export const AboutContainer = styled.main`
   display: flex;
+  @media (max-width: 767px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
 `;
 
 export const SubContainer = styled.div`
@@ -30,4 +36,12 @@ export const AboutText = styled.p`
 export const IMG = styled.img`
   width: 50vw;
   height: 100vh;
+  @media (max-width: 1024px) {
+    height: 60vh;
+  }
+
+  @media (max-width: 767px) {
+    height: 30vh;
+    width: 50vw;
+  }
 `;
